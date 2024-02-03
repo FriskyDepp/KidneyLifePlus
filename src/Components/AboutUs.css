@@ -1,0 +1,57 @@
+.present-team {
+    padding-top: 3vh;
+    gap: 6rem;
+    background-color: whitesmoke;
+    width: 120rem;
+    padding-bottom: auto;
+}
+
+.present-team h1 {
+    font-size: 4vh;
+    margin-top: 3vh;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    color: #235F7E;
+}
+
+.present-team p {
+    font-size: 2vh;
+    font-family: 'Kanit', sans-serif;
+    color: #A6ACAF;
+}
+
+.team-pic {
+    padding-top: 3vh;
+    width: 60%;
+    position: relative;
+    left: -15%;
+}
+
+.meet-team {
+    background-color: #235F7E;
+    height: 28rem;
+}
+
+.team-desc>:nth-child(1) {
+    margin-top: 3vh;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.team-desc {
+    font-family: 'Kanit', sans-serif;
+}
+
+.team-desc p {
+    color: white;
+    font-size: 2vh;
+}
+
+.team-desc>:nth-child(2) {
+    margin-top: 2vh;
+}
+
+.team-desc>:nth-child(6) {
+    color: #6FCDC8;
+}

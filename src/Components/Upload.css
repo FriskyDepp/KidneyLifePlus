@@ -1,0 +1,173 @@
+main {
+    margin-top: 2vh;
+}
+
+form {
+    margin-top: 6vh;
+    margin-left: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed #A6ACAF;
+    height: 70vh;
+    width: 90vh;
+    cursor: pointer;
+    border-radius: 0.5vh;
+    background-color: #CACFD2 ;
+    
+
+}
+
+.clickclick {
+    font-family: 'Kanit', sans-serif;
+    font-size: 3vh;
+}
+
+.topic-up {
+    color: #235F7E;
+    font-family: 'Lato', sans-serif;
+    font-size: 6vh;
+    font-weight: 700;
+}
+
+
+.cloud-pic {
+    width: 100%;
+}
+
+.file-upload {
+    width: 7%;
+}
+
+.cancel-upload {
+    width: 20%;
+}
+
+.back-button {
+    width: 7vh;
+    height: 7vh;
+    position: relative;
+    left: -52%;
+    border: none;
+    border-radius: 20vh;
+    background-color: #235F7E;
+}
+
+.back-button:hover {
+    cursor: pointer;
+    background-color: #A6ACAF;
+}
+
+.back {
+    width: 3vh;
+}
+
+
+
+.uploaded-file {
+    position: absolute;
+    left: 50%;
+    top: 58%;
+    margin: 1vh 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5vh 2vh;
+    border-radius: 0.5vh;
+    background-color: #A6ACAF;
+    width: 40rem;
+    height: 4rem;
+}
+
+.suggestion {
+    background-color: #235F7E;
+    width: 50rem;
+    height: 12rem;
+    border: none;
+    border-radius: 2vh;
+    position: absolute;
+    top: 28.5%;
+    left: 50%;
+    
+}
+
+.suggestion span {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 3.5vh;
+}
+
+.suggestion>:nth-child(1) {
+    margin-top: 4vh;
+    margin-left: -25vh;
+
+}
+
+.suggestion>:nth-child(2) {
+    margin-left: -35vh;
+    margin-top: 0.5vh;
+    
+}
+
+.suggestion>:nth-child(3) {
+    margin-left: 10vh;
+    margin-top: -6.5vh;
+    font-size: 4.5vh;
+}
+
+.retina-pic {
+    width: 25vh;
+    position: relative;
+    right: -30%;
+    top: -70%;
+}
+
+
+
+
+.file-uploaded span {
+    color: #235F7E;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 4vh;
+    position: absolute;
+    left: 50%;
+    top: 49%;
+    margin-top: 3vh;
+    
+}
+
+.confirm-button {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    width: 42rem;
+    height: 4rem;
+    font-size: 3vh;
+    border: none;
+    background-color: #235F7E;
+    border-radius: 2vh;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+
+}
+
+.confirm-button:hover {
+    cursor: pointer;
+    border: #235F7E;
+    background-color: white;
+    color: #235F7E;
+    border-style: solid;
+    border-width: 5px;
+
+}
+
+.click-area {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Kanit', sans-serif;
+    font-size: 3vh;
+}

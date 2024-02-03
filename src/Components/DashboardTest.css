@@ -1,0 +1,187 @@
+.dash-topic {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #235F7E;
+}
+
+.dashboard-test {
+    background-color: #F7F7F7;
+}
+
+.risk-container {
+    width: 30rem;
+    height: 25rem;
+    background-color: white;
+    border-radius: 2vh;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.risk-container p {
+    padding-top: 2vh;
+    font-family: 'Kanit', sans-serif;
+    font-size: 2vh;
+}
+
+.suggest-container {
+    position: absolute;
+    left: 40%;
+    width: 60rem;
+    height: 25rem;
+    background-color: white;
+    border-radius: 2vh;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.suggest-container>:nth-child(1) {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2vh;
+    text-align: left;
+    padding-left: 2vh;
+    padding-top: 2vh;
+}
+
+.suggest-container>:nth-child(2) {
+    font-family: 'Kanit', sans-serif;
+    color: #FF7A00;
+    text-align: left;
+    padding-left: 2vh;
+}
+
+.suggest-container>:nth-child(3) {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2.5vh;
+    color: #FF7A00;
+    text-align: left;
+    padding-left: 2vh;
+}
+
+.suggest-container>:nth-child(4) {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2.5vh;
+    color: #FF7A00;
+    text-align: left;
+    padding-left: 2vh;
+}
+
+.suggest-container>:nth-child(5) {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2.5vh;
+    color: #FF7A00;
+    text-align: left;
+    padding-left: 2vh;
+}
+
+.percent-risk-con {
+    margin-left: 24vh;
+    margin-top: 2vh;
+    width: 40rem;
+    height: 20rem;
+    background-color: white;
+    border-radius: 2vh;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.percent-risk-con p {
+    font-family: 'Kanit', sans-serif;
+    padding-top: 2vh;
+}
+
+.card-history {
+    margin-top: 2vh;
+    box-shadow: 5px 10px 18px #888888;
+    width: 500px;
+    min-height: 120px;
+    max-height: 300px;
+    float: left;
+    margin: 3px;
+    padding: 3px;
+}
+
+.list-1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 3vh;
+    margin-left: 2vh;
+}
+.list-2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 3vh;
+    margin-left: 2vh;
+}
+
+.list-3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 3vh;
+    margin-left: 2vh;
+}
+
+.find-hos {
+    margin-top: 2vh;
+    background-color: #235F7E;
+    width: 25vh;
+    height: 8vh;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    border: none;
+    border-radius: 1.5vh;
+}
+
+.find-hos:hover {
+    background-color: #D9D9D9;
+    border-width: 5px;
+    border: #235F7E;
+    color: #235F7E;
+}
+
+.find-doc {
+    margin-top: 2vh;
+    background-color: #6FCDC8;
+    width: 25vh;
+    height: 8vh;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    border: none;
+    border-radius: 1.5vh;
+}
+
+.find-doc:hover {
+    background-color: #D9D9D9;
+    color: #6FCDC8;
+}
+
+.help-button {
+    position: relative;
+    right: 5%;
+}
+
+@media only screen and (min-width: 600px) {
+    .suggest-container {
+        width: 30rem;
+        top: 45%;
+        left: 2%;
+    }
+
+    .percent-risk-con {
+        position: relative;
+        top: 125%;
+        left: -52%;
+        width: 95%;
+    }
+
+    .card-history {
+        margin-top: 80%;
+    }
+
+    .help-button {
+        position: absolute;
+        top: 130%;
+    }
+}
+
+.table {
+    max-height: 200px; 
+    overflow: scroll;
+  }
+  

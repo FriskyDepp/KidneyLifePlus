@@ -1,0 +1,15 @@
+
+
+.find-hos-topic h1 {
+    margin-top: 3vh;
+    font-family: 'Kanit', sans-serif;
+}
+
+.find-hos-button-place {
+    width: 20vh;
+    height: 5vh;
+    border: none;
+    background-color: #235F7E;
+    color: white;
+    border-radius: 1.5vh;
+}

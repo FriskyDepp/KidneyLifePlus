@@ -1,0 +1,68 @@
+
+
+.signup-field {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    right: 25%;
+}
+
+.signup-field h1 {
+    margin-top: 2vh;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+}
+
+.signup-field input {
+    border: none;
+    width: 35vh;
+    height: 6vh;
+    border-radius: 1vh;
+}
+
+.signup-field>:nth-child(3) {
+    margin-top: 2vh;
+}
+
+.signup-field>:nth-child(4) {
+    margin-top: 2vh;
+}
+
+.signup-field>:nth-child(5) {
+    margin-top: 2vh;
+}
+
+.logo {
+    width: 50%;
+}
+
+.hide-butt {
+    margin-top: 2vh;
+    width: 20vh;
+    height: 5vh;
+    border: none;
+    background-color: #74A9B5;
+    color: white;
+    border-radius: 2vh;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.signup-butt {
+    margin-top: 2vh;
+    width: 20vh;
+    height: 5vh;
+    border: none;
+    background-color: #6FCDC8;
+    color: white;
+    border-radius: 2vh;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.ask-signup {
+    margin-top: 2vh;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+}

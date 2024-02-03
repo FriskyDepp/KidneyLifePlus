@@ -1,0 +1,27 @@
+
+.topic-dash {
+    font-family: 'Lato', sans-serif;
+    color: #396786;
+    font-weight: 800;
+    font-size: 4vh;
+}
+
+.risk-con {
+    width: 20rem;
+
+}
+
+.circle-pro {
+    width: 20vh;
+}
+
+.percent-con {
+    margin-top: 2vh;
+    width: 40rem;
+    height: 20rem;
+}
+
+
+.per-sub {
+    font-family: 'Kanit', sans-serif;
+}

@@ -1,0 +1,17 @@
+.input-bmi {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+    gap: 2vh;
+    width: 28vh;
+    position: absolute;
+    left: 45%;
+}
+
+.input-bmi input {
+    border: #D9D9D9;
+    border-radius: 1.5vh;
+    height: 5vh;
+    border-width: 3px;
+    border-style: solid;
+}

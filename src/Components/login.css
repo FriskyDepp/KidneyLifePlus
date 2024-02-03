@@ -1,0 +1,49 @@
+.login-field {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    right: 25%;
+}
+
+.login-field h1 {
+    margin-top: 2vh;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+}
+
+.login-field img {
+    width: 50%;
+}
+
+.login-field input {
+    border: none;
+    width: 35vh;
+    height: 6vh;
+    border-radius: 1vh;
+}
+
+.login-field>:nth-child(3) {
+    margin-top: 2vh;
+}
+
+.login-field>:nth-child(4) {
+    margin-top: 2vh;
+}
+
+.login-button-log {
+    margin-top: 2vh;
+    border: none;
+    width: 20vh;
+    height: 5vh;
+    border-radius: 1vh;
+    color: white;
+    font-weight: 700;
+    background-color: #6FCDC8;
+}
+
+.ask-log {
+    margin-top: 2vh;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+}
